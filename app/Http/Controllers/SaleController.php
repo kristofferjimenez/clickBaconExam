@@ -86,8 +86,8 @@ class SaleController extends Controller
     public function edit($id)
     {
         $total = 0;
-        $sales = Sale::find($id)->first();
-        
+        $sales = Sale::where('id', '=', $id)->get();
+       
         $salesItems = SalesItem::select('sales_items.id', 'sales_items.category_id', 'sales_items.amount', 'categories.name')
                             ->join('categories', 'sales_items.category_id', '=', 'categories.id')
                             ->where('sales_items.sales_id', '=', $id)
@@ -116,7 +116,7 @@ class SaleController extends Controller
             'amount'      => 'required',
             'category_id' => 'required'
         ]);
-            
+     
         $sale = Sale::where('id', $id)->update([
             'date' => $attributes['date']
         ]);
@@ -124,9 +124,10 @@ class SaleController extends Controller
         for ($i=0; $i < count($attributes['amount']); $i++) 
         { 
 
-            SalesItem::where('sales_id', $id)
-                    ->where('category_id', $attributes['category_id'][$i])
+            SalesItem::where('sales_id', '=', $id)
+                    ->where('category_id', '=', $attributes['category_id'][$i])
                     ->update(['amount' => $attributes['amount'][$i]]);
+            // dd($d);
 
         }
 

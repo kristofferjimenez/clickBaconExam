@@ -12,12 +12,12 @@
     <div class="row justify-content-center">
         <div class="col-lg-4">
             <div class="col-md-12 col-sm-12 card py-3">
-                <form action="/sales/{{ $sales['id'] }}" method="POST">
+                <form action="/sales/{{ $sales[0]->id }}" method="POST">
                     @method('PATCH')
                     @csrf
                     <label><strong>Date</strong></label>
                     
-                    <input type="date" name="date" class="form-control" value="{{ $sales['date']->format('Y-m-d') }}" required>
+                    <input type="date" name="date" class="form-control" value="{{ $sales[0]->date->format('Y-m-d') }}" required>
                     <table class="table table-sm table-striped mt-1">
                         <thead>
                             <tr>

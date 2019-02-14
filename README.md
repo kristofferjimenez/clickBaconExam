@@ -4,11 +4,11 @@
 
 -[Laravel Framework](https://laravel.com/docs/5.7)
 
--MySQL Database
+- MySQL Database
 
--[Bootstrap CSS](https://getbootstrap.com/)
+- [Bootstrap CSS](https://getbootstrap.com/)
 
--[jQuery](https://jquery.com/)
+- [jQuery](https://jquery.com/)
 
 ## VIEWS FOLDER STRUCTURE
 

@@ -17,7 +17,7 @@ $(document).ready(function()
         {
             $('#total').text('Total: $'+total.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
         }else{
-            $('#total').text('An amount is not a number!');
+            $('#total').text('An amount should not be empty!');
         }
         
     });

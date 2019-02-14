@@ -31,7 +31,7 @@
                                         {{ $category->name }}
                                     </td>
                                     <td>
-                                       <input type="number" name="amount[]" class="form-control amount" value="0.00" min="0" step="0.01">
+                                       <input type="number" name="amount[]" class="form-control amount" value="0.00" min="0" step="0.01" required>
                                     </td>
                                 </tr>
                             @endforeach

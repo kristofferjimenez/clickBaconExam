@@ -58,7 +58,7 @@ class SaleController extends Controller
             'amount'      => 'required',
             'category_id' => 'required'
         ]);
-        
+     
         $sale = Sale::create([
             'date' => $attributes['date']
         ]);

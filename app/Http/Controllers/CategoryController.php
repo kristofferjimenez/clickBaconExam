@@ -66,7 +66,7 @@ class CategoryController extends Controller
      */
     public function update(Category $category)
     {
-        $category->update(request(['name']));
+        $category->update(request()->validate(['name' => 'required']));
 
         return redirect('/');
     }

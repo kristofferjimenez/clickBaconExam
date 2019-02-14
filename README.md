@@ -4,7 +4,7 @@
 
 -[Laravel Framework](https://laravel.com/docs/5.7)
 
--MySQL Database [(XAMPP)](https://www.apachefriends.org/index.html)
+-MySQL Database
 
 -[Bootstrap CSS](https://getbootstrap.com/)
 

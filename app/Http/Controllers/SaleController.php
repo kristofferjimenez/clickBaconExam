@@ -127,7 +127,6 @@ class SaleController extends Controller
             SalesItem::where('sales_id', '=', $id)
                     ->where('category_id', '=', $attributes['category_id'][$i])
                     ->update(['amount' => $attributes['amount'][$i]]);
-            // dd($d);
 
         }
 

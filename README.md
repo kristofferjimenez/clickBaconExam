@@ -4,7 +4,7 @@
 
 -[Laravel Framework](https://laravel.com/docs/5.7)
 
--MySQL Database [XAMPP](https://www.apachefriends.org/index.html)
+-MySQL Database [(XAMPP)](https://www.apachefriends.org/index.html)
 
 -[Bootstrap CSS](https://getbootstrap.com/)
 
@@ -12,45 +12,45 @@
 
 ## VIEWS FOLDER STRUCTURE
 
-:open_file_folder: master
+master
 
-    |_ :page_facing_up: layout.blade.php
+    |_ layout.blade.php
 
-:open_file_folder: pages
+pages
 
-    |_ :open_file_folder: category
+    |_ category
 
-            |_ :page_facing_up: edit.blade.php
+            |_ edit.blade.php
 
-            |_ :page_facing_up: index.blade.php
+            |_ index.blade.php
 
-            |_ :page_facing_up: new.blade.php
+            |_ new.blade.php
 
-    |_ :open_file_folder: sales
+    |_ sales
 
-            |_ :page_facing_up: edit.blade.php
+            |_ edit.blade.php
 
-            |_ :page_facing_up: index.blade.php
+            |_ index.blade.php
 
-            |_ :page_facing_up: new.blade.php
+            |_ new.blade.php
 
 
 ## JS
 
 
--delete.category.js      // For deleting categories
+- delete.category.js      // For deleting categories
 
--delete.sales.js         // For deleting sales
+- delete.sales.js         // For deleting sales
 
--sales.calculator.js     // For calculating total of sales
+- sales.calculator.js     // For calculating total of sales
 
 
 ## CONTROLLERS
 
 
--CategoryController.php
+- CategoryController.php
 
--SaleController.php
+- SaleController.php
 
 
 ## MODELS
@@ -66,9 +66,9 @@
 ## MIGRATIONS
 
 
--create_categories_table
+- create_categories_table
 
--create_sales_table
+- create_sales_table
 
--create_sales_items_table
+- create_sales_items_table
 

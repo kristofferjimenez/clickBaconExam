@@ -2,7 +2,7 @@
 
 ###### by Kristoffer Jimenez
 
--[Laravel Framework](https://laravel.com/docs/5.7)
+- [Laravel Framework](https://laravel.com/docs/5.7)
 
 - MySQL Database
 

@@ -56,11 +56,11 @@ pages
 ## MODELS
 
 
--Category.php
+- Category.php
 
--Sale.php
+- Sale.php
 
--SalesItem.php
+- SalesItem.php
 
 
 ## MIGRATIONS

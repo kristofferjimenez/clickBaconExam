@@ -3,11 +3,8 @@
 ###### by Kristoffer Jimenez
 
 -[Laravel Framework](https://laravel.com/docs/5.7)
-
 -MySQL Database [XAMPP](https://www.apachefriends.org/index.html)
-
 -[Bootstrap CSS](https://getbootstrap.com/)
-
 -[jQuery](https://jquery.com/)
 
 ## VIEWS FOLDER STRUCTURE
